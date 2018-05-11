@@ -7,9 +7,7 @@ const authMiddleware = require('./middlewares/auth');
 
 const controllers = requireDir('./controllers');
 
-routes.get('/teste', (req, res) => {
-  return res.send('Hello World');
-});
+routes.get('/teste2', (req, res) => res.send('Hello Rocketseat'));
 
 /**
  * Auth
